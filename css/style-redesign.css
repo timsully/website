@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,400i,500,500i,600,600i');
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    padding-top: 70px;
+}
+
+p {
+    font-size: 1.125em;
+    line-height: 1.750em;
+}
+
+h1 {
+    color: white;
+    font-size: 1.875em;
+    line-height: 40px;
+    text-align: center;
+}
+
+h2 {
+    /* color: white; */
+    font-size: 1.25em;
+    line-height: 1.688em;
+}
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+    padding-top: 10px;
+}
+
+.btn {
+    background-color:transparent;
+    border: 1px solid white;
+}
+
+.btn-lg {
+    border-radius: 3px;
+    width: 350px;
+    color: white;
+}
+
+.pursuance-logo {
+    width: 29px;
+    height: 50px;
+    display: block;
+    background-image: url("../images/logo.png") !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-img {
+    width: 100%;
+    height: 560px;
+    background-image: url("../images/pursuance-header-new.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h1.sec-one-h {
+    width: 596px;
+    padding-top: 108px;
+    padding-bottom: 90px;
+}
